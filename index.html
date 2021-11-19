@@ -641,6 +641,7 @@
 			var vid = document.getElementById("myVideo"); 
 			function playVid() { 
 				stopOpening();
+				openFullscreen();
 				$('#myVideo').show();
 				$('.vidcont').fadeIn();
 				localStorage.setItem("checked", "yoi");
